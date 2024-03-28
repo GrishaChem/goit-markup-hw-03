@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,124 +17,136 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="link-logo" href="./index.html"
-          >Web<span class="logo2">Studio</span></a
-        >
-        <ul class="navigation-links-list">
-          <li>
-            <a class="nav-links-items" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="nav-links-items" href="">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav-links-items" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address-list">
-        <ul class="address">
-          <li>
-            <a class="address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+    <header class="header">
+      <div class="container header-wrap">
+        <nav class="header-nav">
+          <div class="header-logo">
+            <a class="link-logo" href="./index.html"
+              >Web<span class="logo2">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+          </div>
+          <ul class="navigation-links-list">
+            <li>
+              <a class="nav-links-items" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-links-items" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-links-items" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address-list">
+          <ul class="address">
+            <div class="address-wrap">
+              <li>
+                <a class="address-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="address-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </div>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- first section -->
       <section class="hero-main">
-        <h1 class="header">Effective Solutions for Your Business</h1>
-        <button class="hero-btn-main" type="button">Order Service</button>
+        <div class="hero">
+          <h1 class="header-one">Effective Solutions for Your Business</h1>
+          <button class="hero-btn-main" type="button">Order Service</button>
+        </div>
       </section>
       <!-- second section -->
       <section>
-        <h2 hidden>Solutions</h2>
-        <ul>
-          <li>
-            <h3 class="header-solutions">Strategy</h3>
-            <p class="about-solutions">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-solutions">Punctuality</h3>
-            <p class="about-solutions">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-solutions">Diligence</h3>
-            <p class="about-solutions">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-solutions">Technologies</h3>
-            <p class="about-solutions">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden>Solutions</h2>
+          <ul>
+            <li>
+              <h3 class="header-solutions">Strategy</h3>
+              <p class="about-solutions">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="header-solutions">Punctuality</h3>
+              <p class="about-solutions">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="header-solutions">Diligence</h3>
+              <p class="about-solutions">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="header-solutions">Technologies</h3>
+              <p class="about-solutions">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- third section -->
       <section class="our-team">
-        <!-- Team -->
-        <h2 class="header-team">Our Team</h2>
-        <ul class="">
-          <li class="our-team-items">
-            <img
-              src="./images/img1.jpg"
-              alt="man with beard"
-              width="264"
-              height="264"
-            />
-            <h3 class="header-solutions">Mark Guerrero</h3>
-            <p class="about-solutions">Product Designer</p>
-          </li>
-          <li class="our-team-items">
-            <img
-              src="./images/img2.jpg"
-              alt="young smiled man"
-              width="264"
-              height="264"
-            />
-            <h3 class="header-solutions">Tom Ford</h3>
-            <p class="about-solutions">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/img3.jpg"
-              alt="woman with long hair"
-              width="264"
-              height="264"
-            />
-            <h3 class="header-solutions">Camila Garcia</h3>
-            <p class="about-solutions">Marketing</p>
-          </li>
-          <li class="our-team-items">
-            <img
-              src="./images/img4.jpg"
-              alt="man with short hair"
-              width="264"
-              height="264"
-            />
-            <h3 class="header-solutions">Daniel Wilson</h3>
-            <p class="about-solutions">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <!-- Team -->
+          <h2 class="header-team">Our Team</h2>
+          <ul class="">
+            <li class="our-team-items">
+              <img
+                src="./images/img1.jpg"
+                alt="man with beard"
+                width="264"
+                height="264"
+              />
+              <h3 class="header-solutions">Mark Guerrero</h3>
+              <p class="about-solutions">Product Designer</p>
+            </li>
+            <li class="our-team-items">
+              <img
+                src="./images/img2.jpg"
+                alt="young smiled man"
+                width="264"
+                height="264"
+              />
+              <h3 class="header-solutions">Tom Ford</h3>
+              <p class="about-solutions">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./images/img3.jpg"
+                alt="woman with long hair"
+                width="264"
+                height="264"
+              />
+              <h3 class="header-solutions">Camila Garcia</h3>
+              <p class="about-solutions">Marketing</p>
+            </li>
+            <li class="our-team-items">
+              <img
+                src="./images/img4.jpg"
+                alt="man with short hair"
+                width="264"
+                height="264"
+              />
+              <h3 class="header-solutions">Daniel Wilson</h3>
+              <p class="about-solutions">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-------------------- fourth section -------------------->
 

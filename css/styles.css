@@ -2,6 +2,80 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  /* margin-left: 0;
+  margin-right: 0; */
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* padding-inline-start: 0px; */
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+/* .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin: 0 auto;
+} */
+
+.hero-main {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin: 0 auto;
+}
+
+.navigation-links-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 332px;
+}
+
+.address-wrap {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-wrap {
+  display: flex;
+}
+
+.header-logo {
+  margin-right: 76px;
+}
+
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* display: flex; */
 }
 
 /* .logo {
@@ -95,16 +169,19 @@ body {
   color: #404bbf;
 }
 
-.header {
+.header-one {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-main {
   background: #2e2f42;
+  margin: 0 auto;
 }
 .hero-btn-main:focus,
 .hero-btn-main:hover {
