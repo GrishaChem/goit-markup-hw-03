@@ -25,7 +25,7 @@ ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  /* padding-inline-start: 0px; */
+  padding-inline-start: 0px;
 }
 
 .header {
@@ -71,11 +71,10 @@ ul {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* display: flex; */
 }
 
 /* .logo {
@@ -177,6 +176,7 @@ ul {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-main {
@@ -189,6 +189,7 @@ ul {
 }
 
 .hero-btn-main {
+  display: flex;
   background: #4d5ae5;
   color: #fff;
   font-family: inherit;
@@ -197,6 +198,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  margin: 0 auto;
+  padding: 24px 32px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .header-solutions {
