@@ -72,6 +72,10 @@ ul {
   align-items: center;
 }
 
+.nav-list-items {
+  padding: 24px 0;
+}
+
 .header-wrap {
   display: flex;
 }
