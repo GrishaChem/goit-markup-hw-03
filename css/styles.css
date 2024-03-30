@@ -37,10 +37,10 @@ ul {
 }
 
 .header {
-  /* padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 156px;
-  padding-right: 156px; */
+  padding-right: 156px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -60,7 +60,6 @@ ul {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  padding: 24px 0;
 }
 
 .address-wrap {
@@ -70,11 +69,14 @@ ul {
 
 .header-nav {
   display: flex;
-  align-items: center;
 }
 
 .header-wrap {
   display: flex;
+}
+
+.header-logo {
+  margin-right: 76px;
 }
 
 .container {
