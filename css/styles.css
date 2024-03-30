@@ -325,6 +325,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 .our-portfolio-text {
   font-size: 16px;
@@ -379,7 +380,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .footer-logo {
