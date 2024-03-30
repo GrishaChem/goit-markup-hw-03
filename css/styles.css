@@ -311,6 +311,13 @@ ul {
 /* .our-team-list > li > img {
 } */
 
+.portfolio-wrap {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .our-portfolio-header {
   font-weight: 500;
   font-size: 20px;
@@ -347,8 +354,7 @@ ul {
 
 .footer {
   background: #2e2f42;
-  /* 
-  */
+  padding: 100px 0;
 }
 
 .footer-wrap {
@@ -373,4 +379,9 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
