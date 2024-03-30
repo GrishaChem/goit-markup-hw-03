@@ -152,6 +152,11 @@ ul {
   color: #404bbf;
 }
 
+.address {
+  display: flex;
+  gap: 40px;
+}
+
 .address-list {
   font-style: normal;
 }
