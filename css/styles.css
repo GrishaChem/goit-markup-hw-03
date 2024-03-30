@@ -6,7 +6,7 @@ body {
   margin-right: 0; */
 }
 
-section {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -254,6 +254,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .about-solutions {
