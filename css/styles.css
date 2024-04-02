@@ -120,6 +120,8 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo2:active {
@@ -373,6 +375,4 @@ ul {
 }
 
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
